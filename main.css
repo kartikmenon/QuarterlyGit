@@ -17,14 +17,25 @@ body {
 	
 }
 
+.navbar {
+	border-radius: 7px;	
+	width: 142px;
+	background: #FFF;
+	text-align: center;
+	color: #000;
+	font: "Helvetica Neue Thin", "Osaka";
+}
+
+.navbar:hover {
+	background-color: #060;
+}
+
 table {
 	font-size: 11px;
 	background-color: #ffffff;
 	font-family: "Helvetica Neue Thin", "Adobe Garamond Pro", Baskerville, Didot, Osaka
 	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
 	line-height: 2;
-	
-	
 }
 
 .stdTable {
@@ -66,6 +77,7 @@ td {
 	min-width: 780px;
 	margin: 0 auto;
 	background-color: transparent;
+	background: #CCCCFF;
 }
 
 a:specialeffects:hover {
@@ -90,6 +102,3 @@ td a {
 	border-radius: 7px;
 }
 
-.navbar {
-	border-radius: 7px;
-}
