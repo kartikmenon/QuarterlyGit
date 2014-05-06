@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* 
+*  Author Kartik Menon
+*  Date: April 2014
+*  Dartmouth Quarterly of East Asian Studies
+*  All CSS
+*/
+
+body {
+	background-color: #CCC;
+	color: #FFF 
+	font-size: 11px;
+	line-height: 3px;
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
+	margin:0;
+	padding:0;
+	
+}
+
+table {
+	font-size: 11px;
+	background-color: #ffffff;
+	font-family: "Helvetica Neue Thin", "Adobe Garamond Pro", Baskerville, Didot, Osaka
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
+	line-height: 2;
+	
+	
+}
+
+.stdTable {
+	background-color: #ffffff;
+	color:#000;
+}
+
+
+.verticalLine {
+	border-left: thick solid #000;
+	float: left;
+	height: 100%;
+	width: 1px;
+}
+
+
+a img {
+	border: none;
+}
+
+	
+p {
+	text-align: center;
+}
+
+td {
+	padding: 10px;
+	font:"Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
+	font-style:normal;
+	font-size:13px;
+	font-weight:100;
+	
+}
+
+#wrapper {
+	width:80%;
+	height:50%;
+	max-width: 1260px;
+	min-width: 780px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+a:specialeffects:hover {
+	color:#C30;
+	background-color: #C30;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a, a:visited, a:hover, a:active {
+	color:inherit;
+}
+
+td a {
+    display:block;
+    width:100%;
+}
+
+.roundrect {
+	border-radius: 7px;
+}
+
+.navbar {
+	border-radius: 7px;
+}
