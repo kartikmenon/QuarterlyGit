@@ -35,7 +35,7 @@ table {
 	background-color: #ffffff;
 	font-family: "Helvetica Neue Thin", "Adobe Garamond Pro", Baskerville, Didot, Osaka
 	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-	line-height: 2;
+	line-height: 1;
 }
 
 .stdTable {
@@ -99,8 +99,23 @@ h1 {
 }
 
 .padding {
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
 	padding-left: 100px;
 	padding-right: 100px;
+}
+
+.padtitle {
+	font-size: 15px;
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+
+.pagehead {
+	font-size:36px;
+	
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
 }
 
 hr {
