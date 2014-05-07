@@ -80,14 +80,6 @@ td {
 	background: #CCCCFF;
 }
 
-a:specialeffects:hover {
-	color:#C30;
-	background-color: #C30;
-}
-
-a:link {
-	text-decoration:none;
-}
 
 a, a:visited, a:hover, a:active {
 	color:inherit;
@@ -102,3 +94,17 @@ td a {
 	border-radius: 7px;
 }
 
+h1 {
+	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
+}
+
+.padding {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+hr {
+	width:80%;
+	height:1px;
+	background:#666;
+}
