@@ -14,8 +14,21 @@ body {
 	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
 	margin:0;
 	padding:0;
-	
 }
+
+#main-table {
+	width: 75%;
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+	border: 0px; 
+    border-spacing: 0px;
+    border-collapse: separate;
+    height: 100%;
+}
+
+td {
+    padding: 0px;
+}
+
 
 .navbar {
 	border-radius: 7px;	
@@ -72,7 +85,7 @@ td {
 
 #wrapper {
 	width:80%;
-	height:50%;
+	height:100%;
 	max-width: 1260px;
 	min-width: 780px;
 	margin: 0 auto;
