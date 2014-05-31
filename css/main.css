@@ -8,118 +8,85 @@
 
 body {
 	background-color: #CCC;
-	color: #FFF 
-	font-size: 11px;
-	line-height: 3px;
-	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-	margin:0;
-	padding:0;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background:#FFF;
 	
 }
 
+.headerimg {
+	padding: 0;
+}
+
+
+.headerimg ul li {
+	list-style-type: none;
+	display: inline;
+}
+
 .navbar {
-	border-radius: 7px;	
-	width: 142px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px 15x;
 	background: #FFF;
-	text-align: center;
-	color: #000;
-	font: "Helvetica Neue Thin", "Osaka";
-}
-
-.navbar:hover {
-	background-color: #060;
-}
-
-table {
-	font-size: 11px;
-	background-color: #ffffff;
-	font-family: "Helvetica Neue Thin", "Adobe Garamond Pro", Baskerville, Didot, Osaka
+	text-align: left;
 	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-	line-height: 1;
 }
 
-.stdTable {
-	background-color: #ffffff;
-	color:#000;
+.navbar a {
+	font-size: 15px;
+	margin: 8px;
+	height: 20px;
+	padding: 12px 10px;
+	color: #000;
+	text-decoration: none;
+}
+	
+.navbar a:hover {
+	background-color: #093;
 }
 
-
-.verticalLine {
-	border-left: thick solid #000;
-	float: left;
-	height: 100%;
-	width: 1px;
+.navbar ul li {
+	list-style-type: none;
+	display: inline;
 }
 
+.navbar li:before {
+	content: " | ";
+}
+
+.navbar li:first-child:before {
+	content: none;
+}
 
 a img {
 	border: none;
 }
 
-	
-p {
-	text-align: center;
-}
-
-td {
-	padding: 10px;
-	font:"Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-	font-style:normal;
-	font-size:13px;
-	font-weight:100;
-	
-}
-
-#wrapper {
-	width:80%;
-	height:50%;
-	max-width: 1260px;
-	min-width: 780px;
+.wrapper {
+	width: 800px;
 	margin: 0 auto;
-	background-color: transparent;
-	background: #CCCCFF;
+	background: #FFF;
+	position: relative;
+	
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
-a, a:visited, a:hover, a:active {
-	color:inherit;
-}
-
-td a {
-    display:block;
-    width:100%;
-}
 
 .roundrect {
 	border-radius: 7px;
 }
 
-h1 {
-	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-}
-
-.padding {
-	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-.padtitle {
+.staff {
 	font-size: 15px;
 	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
 	padding-left: 100px;
 	padding-right: 100px;
-	
-}
-
-.pagehead {
-	font-size:36px;
-	
-	font-family: "Adobe Garamond Pro", Baskerville, Didot, "Helvetica Neue Thin", Osaka;
-}
-
-hr {
-	width:80%;
-	height:1px;
-	background:#666;
 }
