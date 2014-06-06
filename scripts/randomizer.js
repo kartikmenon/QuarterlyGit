@@ -7,4 +7,4 @@ function swap() {
 		var n = Math.floor(Math.random() * images.length);
 		
 		document.write('<img src = "' +images[n]+ '">');
-	}
+}
